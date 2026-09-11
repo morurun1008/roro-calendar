@@ -1321,6 +1321,11 @@ const activities = [
         title: "🌸から『私のことそんなに好きじゃないもんね』と言われた彼ら ❤️‍🔥/⚛️/🌀/☂️",
         url: "https://x.com/mrmr_0103/status/2092796915528433967?s=20"
     }
+    {
+        date: "2026-09-11",
+        title: "リク 病弱な🌸に対して 🧊⚔️/🧪/🌙/❌/☂️/🗝️/🦋/🪙/🐳",
+        url: "https://x.com/mrmr_0103/status/2098380156985573770?s=20"
+    }
 ];
 
 const calendar = document.getElementById("calendar");
