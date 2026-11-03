@@ -4,7 +4,7 @@ const activities = [
         title: "活動開始",
         url: ""
     },
-    {
+{
         date: "2025-08-05",
         title: "蠟梅様お誕生日2025",
         url: ""
@@ -1321,172 +1321,172 @@ const activities = [
         title: "🌸から『私のことそんなに好きじゃないもんね』と言われた彼ら ❤️‍🔥/⚛️/🌀/☂️",
         url: "https://x.com/mrmr_0103/status/2092796915528433967?s=20"
     },
-    {
+{
         date: "2026-09-11",
         title: "リク 病弱な🌸に対して 🧊⚔️/🧪/🌙/❌/☂️/🗝️/🦋/🪙/🐳",
         url: "https://x.com/mrmr_0103/status/2098380156985573770?s=20"
     },
-    {
+{
         date: "2026-09-13",
         title: "想いを寄せている🌸から恋愛相談をされて複雑な彼ら❤️‍🔥/🌼/🟡/🐾/⚛️/🌀/☂️",
         url: "https://x.com/mrmr_0103/status/2099062912920752271?s=20"
     },
-    {
+{
         date: "2026-09-14",
         title: "リク追加分 病弱な🌸に対して🕯️/🟡/🫎/🐈‍⬛/🍓/🥼",
         url: "https://x.com/mrmr_0103/status/2099445989480464399?s=20"
     },
-    {
+{
         date: "2026-09-15",
         title: "元の世界に帰った🌸がまた戻ってきたけれど帰ってきた理由が「好きな男(自分じゃない他の男)に会いに来た」だった 🔷/🌀/☂️",
         url: "https://x.com/mrmr_0103/status/2099808277043503115?s=20"
     },
-    {
+{
         date: "2026-09-17",
         title: "🌸から避けられてる…！？(※実は好き避けなだけ)",
         url: "https://x.com/mrmr_0103/status/2100579076692152728?s=20"
     },
-    {
+{
         date: "2026-09-21",
         title: "彼ら(※交際中)に「新しく好きな人ができちゃった(嘘)」って言ってみた",
         url: "https://x.com/mrmr_0103/status/2102001444174111083?s=20"
     },
-    {
+{
         date: "2026-09-23",
         title: "“愛してるの伝え方モンド〜稲妻までの男性陣",
         url: "https://x.com/mrmr_0103/status/2102457800454770870?a=fhqlFh0o0xM6yT2HkIg&s=20"
     },
-    {
+{
         date: "2026-09-28",
         title: "義理の妹である🌸を好きになっちゃった",
         url: "https://x.com/mrmr_0103/status/2104511114327507443?a=ahFpVNNkh0XUSFYzRVU&s=20"
     },
-    {
+{
         date: "2026-09-30",
         title: "知人から「釣り合ってない」と言われたから別れを切り出してみたら… 🎲/🕊️/💄/🔥/🧜‍♀️/❌",
         url: "https://x.com/mrmr_0103/status/2105017437263700222?a=GFR1HWCQ0gbp3TQjRFc&s=20"
     },
-    {
+{
         date: "2026-10-01",
         title: "レースたっぷり！な自分好みの可愛いお洋服を馬鹿にされて悲しくなった🌸に対して ❤️‍🔥/🟡/⚛️/🌀 ※解ｉ釈ｉ違い注意",
         url: "https://x.com/mrmr_0103/status/2105329459033477342?a=N1BYYp1cdAG8v6aZaFU&s=20"
     },
-    {
+{
         date: "2026-10-01",
         title: "“愛してる”の伝え方 前回の続き。スメールから残りの全員 #gnsnプラス",
         url: "https://x.com/mrmr_0103/status/2105611520080023798?a=kAOvcmsfXHbnjrxNawY&s=20"
     },
-    {
+{
         date: "2026-10-05",
         title: "軽い冗談で「これ買ってほしいな？」って言ったとき ※支部のにキャラを足しただけです #gnsnプラス",
         url: "https://x.com/mrmr_0103/status/2107089689664438613?a=XaNoEY5Loe_Tthr0J_E&s=20"
     },
-    {
+{
         date: "2026-10-06",
         title: "🌸から「友達として大好き！」と言われちゃった彼ら 🍺/🕯️/❤️‍🔥/🎩/🌀/☂️ #gnsnプラス",
         url: "https://x.com/mrmr_0103/status/2107226880252481607?a=GucUbeF6VCCL2FJ94Uo&s=20"
     },
-    {
+{
         date: "2026-10-06",
         title: "彼の子供を妊娠してしまったので手紙✉️を置いて逃げたら #gnsnプラス",
         url: "https://x.com/mrmr_0103/status/2107469717963481406?a=J7KDIzE5pf1odb9uUaI&s=20"
     },
-    {
+{
         date: "2026-10-07",
         title: "あなたにとって🌸ってどんな存在？って聞いてみた #gnsnプラス",
         url: "https://x.com/mrmr_0103/status/2107809341692924396?a=tZA-u3Rg_5Mg4nCCnLs&s=20"
     },
-    {
+{
         date: "2026-10-12",
         title: "🌸「貴方の一生の傷になりたい」🥃/🐳/🌀/☂️ #gnsnプラス",
         url: "https://x.com/mrmr_0103/status/2109467918497091778?a=24DzK2dEWmZF40tpSEI&s=20"
     },
-    {
+{
         date: "2026-10-12",
         title: "彼に内緒で男友達とお酒を飲みに行ったら帰りにお店の前で彼が待ってた 🍺/🔷/⛪️/🦚/🍄/⚛️/🌀/☂️ #gnsnプラス",
         url: "https://x.com/mrmr_0103/status/2109565136927068270?a=AIYfcmZhAf0mh-dDMf0&s=20"
     },
-    {
+{
         date: "2026-10-13",
         title: "急にいなくなった(ログインしなくなった)🌸(プレイヤー)がまた突然戻ってきた ⛅️/🍃/🎩/🍁/🟩/🌀 #gnsnプラス",
         url: "https://x.com/mrmr_0103/status/2109920388243496976?a=M4bm45gmZrwtUgssswo&s=20"
     },
-    {
+{
         date: "2026-10-14",
         title: "🌸がナンパされてる！ ※彼視点 (彼とは交際していない) 🔷/⛪️/🌀/☂️ #gnsnプラス",
         url: "https://x.com/mrmr_0103/status/2110130550719799386?a=bcaBYWfGefEvifr-ves&s=20"
     },
-    {
+{
         date: "2026-10-14",
         title: "🌸が自分のぬいを抱っこして寝てるのを発見しちゃった",
         url: "https://x.com/mrmr_0103/status/2110301931654762796?a=xOC4JdvBZ6-8-RN-AcU&s=20"
     },
-    {
+{
         date: "2026-10-14",
         title: "振った🌸に恋人ができて後悔するけどもう遅い彼ら ※彼ｉ視ｉ点、かなり人を選びます 🍺/🥃/🟡/🌀 #gnsnマイナス",
         url: "https://x.com/mrmr_0103/status/2110383056729309230?a=2F2798Ol8SF5r_QHEHg&s=20"
     },
-    {
+{
         date: "2026-10-15",
         title: "中々告白できない彼ら #gnsnプラス",
         url: "https://x.com/mrmr_0103/status/2110648817859355014?a=1V9N7hHEmzVFW_g_9iU&s=20"
     },
-    {
+{
         date: "2026-10-16",
         title: "🌸に「好きな人いる？」って聞ける？聞けない？ 🍨/🍄/🎧/⛓️/🎩/🥼/🌀/☂️ #gnsnプラス",
         url: "https://x.com/mrmr_0103/status/2111032001864090039?a=_-4CF6L9z1nXgYXFdIw&s=20"
     },
-    {
+{
         date: "2026-10-19",
         title: "リク 🐦ップしてきてからずっとお世話をしてくれている彼に「もう迷惑はかけられないから」と自立しようとしたら… 🍄/👁️‍🗨️/🥃/🎧/⏳/🌀 #gnsnプラス ※ヤンデレ気味",
         url: "https://x.com/mrmr_0103/status/2112026425855291537?a=I8xsYnE09xDP9SEGL2Q&s=20"
     },
-    {
+{
         date: "2026-10-20",
         title: "🐦ップしてきた🌸が元の世界に戻ろうとするとき素直に「帰らないで」って言える？ #gnsnプラス,
         url: "https://x.com/mrmr_0103/status/2112494375662174283?a=_M4XqHu1tqqv1RC1tc4&s=20"
     },
-    {
+{
         date: "2026-10-23",
         title: "🌸に振られた次の日、どちらかが『嫌い』と言わないと出られない部屋に閉じ込められた彼ら #gnsnマイナス",
         url: "https://x.com/mrmr_0103/status/2113560924393222327?a=NjTaEk-0SxyzCqpXSlk&s=20"
     },
-    {
+{
         date: "2026-10-23",
         title: "料理が苦手な🌸が料理中、指を切ってしまった ※全員過保護気味 #gnsnプラス",
         url: "https://x.com/mrmr_0103/status/2113581227018252797?a=_n7bA3wxcRomxfQLhEo&s=20"
     },
-    {
+{
         date: "2026-10-25",
         title: "リク 監禁🥫から逃げ出したら ※ヤンデレ#gnsnプラス 🥃/🎧",
         url: "https://x.com/mrmr_0103/status/2114238622333592033?a=pCnqfo7iOiuu1aTiuCU&s=20"
     },
-    {
+{
         date: "2026-10-25",
         title: "リク 危険な男だと察して配属先を変えようとする🌸とそれが気に入らない執官達 #gnsnプラス 🧪/🪙/☂️",
         url: "https://x.com/mrmr_0103/status/2114361053530529905?a=9cVFikF_lwp5nONfI_s&s=20"
     },
-    {
+{
         date: "2026-10-26",
         title: "普段大人しい🌸が辛いことがあって「一人にしないで」と言ったとき 💭/💄/🌷/🍹/💎/🪽 #gnsnプラス",
         url: "https://x.com/mrmr_0103/status/2114608638270808133?a=zoa36qdkTBQMvAok6uo&s=20"
     },
-    {
+{
         date: "2026-10-26",
         title: "🌸から『可愛い』と言われ続けたら… #gnsnプラス",
         url: "https://x.com/mrmr_0103/status/2114696333890396198?a=PTJHqJicxbo7TEAqCHM&s=20"
     },
-    {
+{
         date: "2026-10-28",
         title: "彼と付き合ってることを隠していたら友人から「(彼のことを)紹.介してほしい」と言われて断れず紹介したとき ❤️‍🔥/🔷/🎧/🎩/🌀/☂️ #gnsnプラス",
         url: "https://x.com/mrmr_0103/status/2115370413131976826?a=etMGp1_tO1cKRzl1Qlo&s=20"
     },
-    {
+{
         date: "2026-10-31",
         title: "他の男と繋がっている🌸の運命の赤い糸🧵が切れない彼ら 🍃/🥃/🐾/🌀 #gnsnマイナス",
         url: "https://x.com/mrmr_0103/status/2116518373546930227?a=vKQZmBgB5JK2giX_2_k&s=20"
     },
-    {
+{
         date: "2026-11-02",
         title: "彼に『私ってやっぱり可愛くないよね』と聞いたら 🍁/⚛️/🌀/☂️ #gnsnプラス",
         url: "https://x.com/mrmr_0103/status/2117208454192353449?a=KqE-KMB1HB8UERWwmEk&s=20"
