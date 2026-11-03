@@ -1443,8 +1443,8 @@ const activities = [
     },
 {
         date: "2026-10-20",
-        title: "🐦ップしてきた🌸が元の世界に戻ろうとするとき素直に「帰らないで」って言える？ #gnsnプラス"
-        url: "https://x.com/mrmr_0103/status/2112494375662174283?a=_M4XqHu1tqqv1RC1tc4&s=20"
+        title: "🐦ップしてきた🌸が元の世界に戻ろうとするとき素直に「帰らないで」って言える？ #gnsnプラス",
+        url: "https://x.com/mrmr_0103/status/2112494375662174283?a=BoFYnN1JoZtTaVAx3U8&s=20"
     },
 {
         date: "2026-10-23",
