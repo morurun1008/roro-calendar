@@ -1789,69 +1789,159 @@ searchButton.addEventListener("click", function() {
 
 });
 
+
 const searchTitle = document.getElementById("search-title");
 const titleSearchButton = document.getElementById("title-search-button");
 const titleSearchResult = document.getElementById("title-search-result");
 
+// 1ページに表示する件数
+const itemsPerPage = 5;
+
+// 現在何ページ目か
+let currentTitlePage = 0;
+
+// 検索結果を表示する関数
+function displayTitleSearchResults(searchActivities) {
+
+    // 全ページ数を計算
+    const totalPages = Math.ceil(searchActivities.length / itemsPerPage);
+
+    // 現在のページに表示する範囲を計算
+    const start = currentTitlePage * itemsPerPage;
+    const end = start + itemsPerPage;
+
+    // 今のページに表示する5件を取り出す
+    const pageActivities = searchActivities.slice(start, end);
+
+    let html = "<h3>検索結果</h3>";
+
+    // 作品を表示
+    for (let i = 0; i < pageActivities.length; i++) {
+
+        html +=
+            '<div class="title-search-item">' +
+            '<div class="activity-date">' +
+            pageActivities[i].date +
+            "</div>";
+
+        if (pageActivities[i].url !== "") {
+
+            html +=
+                '<a href="' +
+                pageActivities[i].url +
+                '" target="_blank">' +
+                pageActivities[i].title +
+                "</a>";
+
+        } else {
+
+            html +=
+                '<span class="activity-title">' +
+                pageActivities[i].title +
+                "</span>";
+        }
+
+        html += "</div>";
+    }
+
+    // 5件を超える場合だけページ移動ボタンを表示
+    if (totalPages > 1) {
+
+        html +=
+            '<div id="title-pagination">' +
+            '<button id="title-prev" ' +
+            (currentTitlePage === 0 ? "disabled" : "") +
+            '>←</button>' +
+
+            '<span>' +
+            (currentTitlePage + 1) +
+            " / " +
+            totalPages +
+            "</span>" +
+
+            '<button id="title-next" ' +
+            (currentTitlePage === totalPages - 1 ? "disabled" : "") +
+            '>→</button>' +
+            "</div>";
+    }
+
+    titleSearchResult.innerHTML = html;
+    titleSearchResult.classList.add("show");
+
+    // 前のページへ
+    const prevButton = document.getElementById("title-prev");
+
+    if (prevButton) {
+        prevButton.addEventListener("click", function() {
+
+            currentTitlePage--;
+
+            displayTitleSearchResults(searchActivities);
+
+        });
+    }
+
+    // 次のページへ
+    const nextButton = document.getElementById("title-next");
+
+    if (nextButton) {
+        nextButton.addEventListener("click", function() {
+
+            currentTitlePage++;
+
+            displayTitleSearchResults(searchActivities);
+
+        });
+    }
+}
+
+
+// 単語検索ボタン
 titleSearchButton.addEventListener("click", function() {
 
-const words = searchTitle.value.split(/\s+/);
+    const words = searchTitle.value.trim().split(/\s+/);
+
+    // 空欄のまま検索した場合
+    if (searchTitle.value.trim() === "") {
+
+        titleSearchResult.innerHTML =
+            "<p>検索する単語を入力してください。</p>";
+
+        titleSearchResult.classList.add("show");
+        return;
+    }
 
     let searchActivities = [];
 
+    // 入力された単語を含む作品を探す
     for (let i = 0; i < activities.length; i++) {
 
         for (let j = 0; j < words.length; j++) {
 
             if (activities[i].title.includes(words[j])) {
+
                 searchActivities.push(activities[i]);
                 break;
-            }
 
+            }
         }
     }
 
-if (searchActivities.length > 0) {
+    // 検索結果があった場合
+    if (searchActivities.length > 0) {
 
-    let html = "<h3>検索結果</h3>";
+        // 新しい検索なので1ページ目に戻す
+        currentTitlePage = 0;
 
-for (let i = 0; i < searchActivities.length; i++) {
-
-    html +=
-        '<div class="title-search-item">' +
-        '<div class="activity-date">' +
-        searchActivities[i].date +
-        "</div>";
-
-    if (searchActivities[i].url !== "") {
-
-        html +=
-            '<a href="' +
-            searchActivities[i].url +
-            '" target="_blank">' +
-            searchActivities[i].title +
-            "</a>";
+        displayTitleSearchResults(searchActivities);
 
     } else {
 
-        html +=
-            '<span class="activity-title">' +
-            searchActivities[i].title +
-            "</span>";
+        titleSearchResult.innerHTML =
+            "<p>該当する活動はありません。</p>";
+
+        titleSearchResult.classList.add("show");
+
     }
 
-    html += "</div>";
-}
-
-    titleSearchResult.innerHTML = html;
-    titleSearchResult.classList.add("show");
-
-} else {
-
-    titleSearchResult.innerHTML =
-        "<p>該当する活動はありません。</p>";
-
-    titleSearchResult.classList.add("show");
-}
 });
-

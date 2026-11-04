@@ -240,3 +240,35 @@ h1 {
     display: block;
     color: purple;
 }
+
+
+/* ====================
+   単語検索のページ移動
+==================== */
+
+#title-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#title-pagination button {
+    font-size: 18px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: plum;
+    color: white;
+    cursor: pointer;
+}
+
+#title-pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#title-pagination span {
+    font-size: 16px;
+}
