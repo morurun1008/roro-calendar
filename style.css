@@ -196,22 +196,25 @@ h1 {
    スマホ対応
 ==================== */
 
+
 @media (max-width: 600px) {
 
     #calendar {
-        width: auto;
-        margin: 0 10px;
-        padding: 10px;
+        width: 900px;
+        margin: 0;
+        padding: 15px;
+        box-sizing: border-box;
     }
 
     #calendar-grid {
-        grid-auto-rows: 60px;
-        gap: 2px;
+        grid-template-columns: repeat(7, 1fr);
+        grid-auto-rows: 130px;
+        gap: 4px;
     }
 
     #calendar-grid span {
-        padding: 5px;
-        font-size: 12px;
+        padding: 8px;
+        font-size: 16px;
     }
 
     #selected-date-result,
