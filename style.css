@@ -16,11 +16,29 @@
     text-align: center;
 }
 
+
 #calendar-grid {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(7, minmax(0, 1fr));
     grid-auto-rows: 160px;
     gap: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* 各マス目が内容に引っ張られて広がらないようにする */
+#calendar-grid > div {
+    min-width: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* 活動タイトルをマス目の幅に収める */
+#calendar-grid .activity-title {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: anywhere;
 }
 
 #calendar > div:first-child {
