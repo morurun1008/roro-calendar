@@ -1508,7 +1508,7 @@ const activities = [
         url: "https://x.com/mrmr_0103/status/2117902174902685799?a=Y98rdxVxqYn1-gGxeO8&s=20"
     },
     { 
-        date: "2026-11-5",
+        date: "2026-11-05",
         title: "悪夢を見た🌸が泣きながら震えていたら 🌼/⛪️/🕯️/🌀/☂️/💫 #gnsnプラス",
         url: "https://x.com/mrmr_0103/status/2118261947254837407?a=_D4KgyiQ12W0oewh8vI&s=20"
     }
