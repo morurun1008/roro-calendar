@@ -1501,6 +1501,16 @@ const activities = [
         date: "2026-11-3",
         title: "酔った🌸が他の男に絡まれそうになってる！ ❤️‍🔥/🔷/🦚/🦉/🔶/🐯/🐍/🦌/⏳/🌀/🎩/🥼/🟩/⚛️/☂️/🧊⚔️/💄/⚖️ #gnsnプラス",
         url: "https://x.com/mrmr_0103/status/2117574070896345415?a=i1dxuJGiOQatvBUUQlI&s=20"
+    },
+    { 
+        date: "2026-11-04",
+        title: "『どこかにいい人いないかな〜』という🌸の呟きに対して立候補する彼ら ❤️‍🔥/🔷/🍺/⛪️/🦌/⚛️/🌀/☂️#gnsnプラス",
+        url: "https://x.com/mrmr_0103/status/2117902174902685799?a=Y98rdxVxqYn1-gGxeO8&s=20"
+    },
+    { 
+        date: "2026-11-5",
+        title: "悪夢を見た🌸が泣きながら震えていたら 🌼/⛪️/🕯️/🌀/☂️/💫 #gnsnプラス",
+        url: "https://x.com/mrmr_0103/status/2118261947254837407?a=_D4KgyiQ12W0oewh8vI&s=20"
     }
     //{ date: "",title: "",url: ""},
 ];
